@@ -1,5 +1,4 @@
-    1  mkdir darbs
-    2  cd darbs
+
     3  ls
     4  ls darbs
     5  ls /darbs
@@ -34,3 +33,25 @@
    34  ls -la
    35  history
    36  history > history.txt
+   37  ls -l
+   38  ls -la
+   39  firefox
+   40  git init
+   41  git add .
+   42  ls darbi
+   43  ls /darbi
+   44  car darbi
+   45  pwd
+   46  cd
+   47  pwd
+   48  ls
+   49  cd darbi
+   50  ls
+   51  git init
+   52  git add .
+   53  git config --global user.email ilja.kostenko@gmail.com
+   54  git commit -m "20170914_15_55"
+   55  git remote add origin https://github.com/iljakostenko/dmi.git
+   56* 
+   57  ls
+   58  history > history.txt
