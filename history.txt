@@ -1,0 +1,36 @@
+    1  mkdir darbs
+    2  cd darbs
+    3  ls
+    4  ls darbs
+    5  ls /darbs
+    6  pwd
+    7  echo smth
+    8  mkdir a.txt
+    9  echo >> ../a.txt
+   10  cat a.txt
+   11  echo "Text" > a.txt
+   12  echo "Text" >> a.txt
+   13  man pwd
+   14  touch text.txt
+   15  echo "Text" >> text.txt 
+   16  ls text.txt
+   17  $ cat > file.txt
+   18  cd /
+   19  cd ~
+   20  cd /
+   21  cd
+   22  cd /
+   23  pwd
+   24  ls
+   25  mkdir darbi
+   26  mkdir c.txt
+   27  cd
+   28  mkdir c.txt
+   29  echo "rd" >> c.txt
+   30  mk
+   31  mkdir darbi
+   32  ls
+   33  cd darbi
+   34  ls -la
+   35  history
+   36  history > history.txt
