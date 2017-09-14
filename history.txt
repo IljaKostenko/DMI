@@ -1,4 +1,5 @@
-
+    1  mkdir darbs
+    2  cd darbs
     3  ls
     4  ls darbs
     5  ls /darbs
@@ -14,44 +15,95 @@
    15  echo "Text" >> text.txt 
    16  ls text.txt
    17  $ cat > file.txt
-   18  cd /
-   19  cd ~
-   20  cd /
-   21  cd
-   22  cd /
-   23  pwd
-   24  ls
-   25  mkdir darbi
-   26  mkdir c.txt
-   27  cd
-   28  mkdir c.txt
-   29  echo "rd" >> c.txt
-   30  mk
-   31  mkdir darbi
+   18  touch a.txt
+   19  ls a.txt
+   20  pwd
+   21  echo "test" > b.txt
+   22  ls b.txt
+   23  cat b.txt
+   24  ls ../darbs
+   25  touch s.txt
+   26  ls ../darbs
+   27  echo $0
+   28  sh
+   29  who
+   30  grep --help> help.txt
+   31  cat help.txt
    32  ls
-   33  cd darbi
-   34  ls -la
-   35  history
-   36  history > history.txt
-   37  ls -l
-   38  ls -la
-   39  firefox
-   40  git init
-   41  git add .
-   42  ls darbi
-   43  ls /darbi
-   44  car darbi
-   45  pwd
-   46  cd
-   47  pwd
+   33  grep "grep" > grep.txt
+   34  cd /
+   35  cd ~
+   36  cd /
+   37  cd
+   38  cd /
+   39  pwd
+   40  ls
+   41  mkdir darbi
+   42  mkdir c.txt
+   43  cd
+   44  mkdir c.txt
+   45  echo "rd" >> c.txt
+   46  mk
+   47  mkdir darbi
    48  ls
    49  cd darbi
-   50  ls
-   51  git init
-   52  git add .
-   53  git config --global user.email ilja.kostenko@gmail.com
-   54  git commit -m "20170914_15_55"
-   55  git remote add origin https://github.com/iljakostenko/dmi.git
-   56* 
-   57  ls
-   58  history > history.txt
+   50  ls -la
+   51  history
+   52  history > history.txt
+   53  ls -l
+   54  ls -la
+   55  firefox
+   56  git init
+   57  git add .
+   58  ls darbi
+   59  ls /darbi
+   60  car darbi
+   61  pwd
+   62  cd
+   63  pwd
+   64  ls
+   65  cd darbi
+   66  ls
+   67  git init
+   68  git add .
+   69  git config --global user.email ilja.kostenko@gmail.com
+   70  git commit -m "20170914_15_55"
+   71  git remote add origin https://github.com/iljakostenko/dmi.git
+   72  ls
+   73  history > history.txt
+   74  ls -l
+   75  nano history.txt
+   76  cat history.txt
+   77  firefox
+   78  git add .
+   79  git commit -m "20170914_16_45"
+   80  git push origin master
+   81  x=10
+   82  echo x = $x
+   83  echo -e "Tecmint \bis 
+   84  echo -e "Tecmint \bis" 
+   85  exit
+   86  echo "tecmint"
+   87  echo x = $x
+   88  echo "Tecmint"
+   89  echo -e "Tecmind \bis \ba \bcommunity \bof \bLinux"
+   90  echo -e "Tecmind \nis \na \ncommunity \nof \nLinux"
+   91  echo -e "Tecmind \vis \va \vcommunity \vof \vLinux"
+   92  echo -e "Tecmind \tis \ta \tcommunity \tof \tLinux"
+   93  cp history.txt a.txt
+   94  ls -l
+   95* 
+   96  cp history.txt ../a3.txt
+   97  ls
+   98  cd ..
+   99  ls
+  100  cd /darbi
+  101  cd darbi/
+  102  mkdir apakshdarbi
+  103  mv a*.txt ./apakshdarbi/
+  104  ls
+  105  cd apakshdarbi/
+  106  ls
+  107  cd ..
+  108  rmdir apakshdarbi
+  109  history > history.txt
